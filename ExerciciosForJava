@@ -1,0 +1,122 @@
+package javaaulafor_20_09;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author guilherme_nones
+ */
+public class JavaAulaFor_20_09 {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        /*
+        1. Escreva um algoritmo que leia dez valores numéricos inteiros e apresente na tela o somatório dos valores.
+        
+        
+        int cont = 0, soma = 0;
+        
+        for(cont = 1; cont <=10; cont++){
+            soma = soma + cont;
+            System.out.println(cont);
+            
+        }
+           System.out.println("\nA soma dos números inteiros apresentados é: " + soma);
+        */
+        
+        
+        
+        
+        
+        /*
+        2. Elabore um algoritmo que leia um determinado número e apresente na tela a tabuada de multiplicação deste número.
+        Por exemplo, digamos que o número informado foi 2, o programa deverá apresentar na tela:
+
+1 x 2 = 2
+
+2 x 2 = 4
+
+3 x 2 = 6
+…
+10 x 2 = 20
+        
+        
+        int contador, numero = 1, resultado;
+        
+        System.out.println("Informe um número para fazermos a tabuada");
+        contador = sc.nextInt();
+        
+        
+        for(contador = 0; contador <= 10; contador++){
+            resultado = numero * contador;
+            System.out.println(numero + " X " + contador + " = " + resultado);
+        }
+        */
+                
+        
+        
+        
+        
+        /*
+        3. Crie um algoritmo que leia um determinado número e apresente na tela a tabuada da divisão deste número. 
+        Por exemplo, digamos que o número informado foi 5, o programa deverá apresentar na tela:
+
+5 : 5 = 1
+
+10 : 5 = 2
+
+15 : 5 = 3
+…
+50 : 5 = 10
+        
+        
+        int contador, numero = 5, resultado;
+        
+        System.out.println("Digite um valor para calcularmos a tabuada de divisão");
+        contador = sc.nextInt();
+        
+        for(contador = 0; contador <= 50; contador+=5){
+            resultado = contador / numero;
+            System.out.println(contador + " / " + numero + " = " + resultado);
+        }
+        */
+        
+        
+        
+        
+                    
+        /*
+        4. Escrever um algoritmo que lê um valor numérico inteiro. Após, escreva uma tabela com cabeçalho, contendo o valor, seu quadrado e seu cubo. 
+        Mostrar para todos valores entre o valor informado e 1. Por exemplo, digamos que o número informado seja 20, deve-se apresentar na tela:
+
+Número Dobro Triplo
+
+20 400 8000
+
+19 361 6859
+
+18 324 5832
+
+21
+…
+1 1 1
+        
+        
+        int contador, cubo, quadrado;
+        
+        System.out.println("Digite um número para mostrarmos seu valor quadrado e seu valor cubo");
+        contador = sc.nextInt();
+        
+        for(contador = contador; contador >= 0; contador--){
+            
+            cubo = contador * contador * contador;
+            quadrado = contador * contador;
+            System.out.println(contador + " " + quadrado + " " + cubo);              
+        }
+        /*
+
+    }
+    
+}
